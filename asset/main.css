@@ -1,0 +1,418 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*****************
+    Nav Bar
+******************/
+
+#nav-bar
+{
+    position: sticky;
+    color: #fff;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar img
+{
+    height: 40px;
+    margin-left: 40px;
+}
+
+#nav-bar ul
+{
+    margin-right: 40px
+}
+
+#nav-bar li
+{
+    padding: 0 10px;
+    
+}
+
+
+#nav-bar li a
+{
+    float: right;
+    text-align: left;
+}
+
+
+
+#nav-bar ul li a:hover
+{
+    color: #007bff !important;
+}
+
+
+#nav-bar ul li .active
+{
+    color: #007bff !important;
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none !important
+}
+
+.nav-link
+{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*****************
+     Slider
+******************/
+
+#slider
+{
+    width: 100%;
+}
+
+#slider .carousel-caption
+{
+    margin: 0 auto;
+    top: 50%;
+    width: 500px;
+    transform: translateY(-50%);
+    bottom: initial !important;
+    z-index: 2;
+    
+}
+
+#slider .carousel-caption h5
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 42px;
+    padding: 40px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-size: 50%, 50%;
+    border-radius: 50%;
+}
+
+/*****************
+     utlity
+******************/
+
+.section
+{
+    padding: 50px 0 50px;
+    color: #666;
+}
+
+h1
+{
+    text-align: center;
+    color: #ccc;
+    padding-bottom: 10px;
+}
+
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin: 20px auto 30px;
+}
+
+/*****************
+     Package
+******************/
+
+.single-price
+{
+    margin: 10px auto;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+    border: 1px solid #efefef;
+}
+
+.single-price:hover
+{
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.price-head
+{
+    background-color: #2196f3;
+    color: #fff;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.price-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    padding: 5px;
+}
+
+.price-head p
+{
+    font-size: 22px;
+    color: #eee;
+    line-height: 20px;
+}
+
+.price-head span
+{
+    font-size: 15px;
+}
+
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.price-content ul li 
+{
+    border-bottom: 1px solid #efefef;
+    padding: 10px 10px;
+    list-style: none;
+}
+
+.price-content ul li:last-child
+{
+    border-bottom: none;
+}
+
+
+.price-content .fa-icon
+{
+    color: skyblue;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.price-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.price-button .call-btn
+{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+
+.price-button .call-btn:hover
+{
+    background-color: palegreen;
+    color: #555 !important;
+}
+
+.price-button a
+{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+
+/*****************
+     Service
+******************/
+
+#service
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),
+        rgba(0,0,0,0.6)),
+        url(img/blur-computer-connection-442150.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 50px 0 60px;
+    margin: 40px 0 0;
+}
+
+#service h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#service .icon
+{
+    font-size: 46px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#service p
+{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#service .col-md-4:hover
+{
+    background: #007bff;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+/*****************
+     About
+******************/
+
+#about .profile-pic
+{
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+#about .profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+#about .profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+
+#about .profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+#about .profile-pic .text
+{
+    position: absolute;
+    padding: 18px 0;
+    z-index: 2;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    height: 110px;
+    width: 250px;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#about .profile-pic:hover .text
+{
+    opacity: 1;
+    margin-bottom: 15%;
+}
+
+#about .profile-pic .text h2
+{
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+#about .profile-pic .text h3
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #999 !important;
+}
+
+
+/*****************
+     Contact
+******************/
+
+#contact .info
+{
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.6);
+}
+
+.social-icon
+{
+    
+}
+
+.social
+{
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    color: #fff;
+    background: #007bff;
+    margin: 20px;
+    transform: translateY(90%);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.6);
+}
+
+.contact-icon
+{
+    color: #007bff !important;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/*****************
+     Footer
+******************/
+
+#footer
+{
+    padding: 10px 0;
+    color: #ffff;
+    background: #999;
+    font-size: 22px;
+}
+
+#footer p 
+{
+    padding: 10px 0;
+    margin: 10px 0;
+}
